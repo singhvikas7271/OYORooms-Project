@@ -1,0 +1,561 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+}
+
+#LogoAndMenuBlock {
+  background-color: #fff;
+  height: 70px;
+  /* border-bottom: 1px solid #eee; */
+  box-shadow: 1px 1px 4px 1px #eee;
+  display: flex;
+  align-items: center;
+}
+
+#LogoAndMenuBlock article {
+  margin: 0 auto;
+  width: 90%;
+}
+
+#logo {
+  width: 81px;
+  height: 29px;
+  fill: #ee2e24;
+}
+
+.logoBlock {
+  width: 55%;
+  float: left;
+  margin: 0 auto;
+    padding-top: 15px;
+}
+
+.menuBlock {
+  width: 42%;
+  /* float: left; */
+  display: flex;
+  align-items: center;
+}
+
+/* menuRight block starts */
+
+#wizard-logo {
+  width: 22px;
+  height: 17px;
+  background-color: #111;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.menuLeft {
+  width: 49%;
+  /* float: left; */
+  display: flex;
+  border: 1px solid lightgray;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 3px 3px 2px;
+  margin: 8px;
+}
+.menuRight {
+  width: 48%;
+  /* float: left; */
+  display: flex; /* The better way  i use (display) instead of (float) */
+}
+
+/* .icon1 {
+border:0 10px;
+}
+.icon2{
+  margin: auto;
+} */
+
+.menuLeft > div:nth-child(1) {
+  width: 20%;
+  float: left;
+}
+
+.menuLeft > div:nth-child(2) {
+  width: 70%;
+  float: left;
+  margin: 0 6px;
+}
+
+.menuLeft > div > p {
+  margin: 0;
+}
+
+.menuLeft > div > p:nth-child(1) {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.menuLeft > div > p:nth-child(2) {
+  font-size: 10px;
+  font-weight:lighter ;
+}
+
+.menuRight ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menuRight ul li {
+  float: left;
+}
+
+.logo i a {
+  display: flex;
+  position: relative;
+}
+
+.menuRight ul li a {
+  color: #555;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* city css starts here */
+
+#city {
+  background-color: #f3f5f7;
+  height: 40px;
+}
+
+#city article {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#city ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#city ul li {
+  float: left;
+  margin: 0px 10px;
+}
+
+#city ul li a {
+  padding: 10px 8px;
+  display: inline-block;
+  color: #666;
+  text-decoration: none;
+}
+
+#city ul li a:hover {
+  background-color: #eee;
+  transition: ease-in-out all 0.6s;
+  border-bottom: 1px solid #999;
+}
+
+#city ul li a::after {
+  content: "^";
+  margin: 0px 3px;
+  line-height: 10px;
+}
+
+/* sliderblock css starts */
+
+#sliderBlock {
+  background: linear-gradient(135.46deg, #d11450, #df293a);
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#sliderBlock article {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#sliderBlock h1 {
+  font-size: 32px;
+  font-weight: 800;
+  text-transform: capitalize;
+  margin: 10px 0px 20px;
+  color: #fff;
+}
+
+#sliderBlock > article > main > form > span > input:nth-child(1) {
+  width: 100%;
+  border-radius: 5px 0px 0px 5px;
+  padding: 21px;
+}
+
+#sliderBlock > article > main > form > span {
+  width: 33%;
+  position: relative;
+}
+
+.nearMe {
+  position: absolute;
+  background-color: #eee;
+  padding: 6px 8px;
+  border-radius: 6px;
+  right: 8px;
+  top: 14px;
+  font-size: 13px;
+  color: #111;
+  font-weight: 800;
+}
+
+#sliderBlock > article > main > form > input:nth-child(2) {
+  width: 20%;
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
+}
+
+#sliderBlock > article > main > form > input:nth-child(3) {
+  width: 20%;
+}
+
+#sliderBlock > article > main > form > input:nth-child(3) ::placeholder {
+  color: #111;
+}
+
+#sliderBlock > article > main > form > input,
+#sliderBlock > article > main > form > span > input {
+  padding: 18px;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  font-size: 17px;
+}
+
+#sliderBlock > article > main > form {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+#sliderBlock > article > main > form > button {
+  background-color: #1ab64f;
+  color: #fff;
+  padding: 20px 60px;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* addBlock section css starts here */
+
+#addBlock article {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#addBlock article img {
+  width: 100%;
+  height: 140px;
+  border-radius: 4px;
+}
+
+#addBlock article figure {
+  margin: 40px 0;
+}
+
+/* saveBlock css starts here */
+
+#saveBlock article {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#saveBlock article h1,
+HotelsAndHomes article h1 {
+  font-weight: bold;
+  font-size: 26px;
+  color: #000;
+}
+
+#saveBlock article main div {
+  width: 32%;
+  height: 200px;
+  overflow: hidden;
+}
+
+#saveBlock article main div img {
+  width: 100%;
+  height: 200px;
+  border-radius: 6px;
+}
+
+#saveBlock article main {
+  display: flex;
+  justify-content: space-between;
+}
+
+#saveBlock article main div img:hover {
+  transform: scale(1.1);
+  transition: ease all 0.7s;
+}
+
+/* oyo hotels and home css starts here */
+
+#HotelsAndHomes article {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#HotelsAndHomes article main {
+  display: flex;
+}
+
+#HotelsAndHomes article main .leftMain {
+  width: 40%;
+  background-color: #1ab64f;
+}
+
+#HotelsAndHomes article main .rightMain {
+  width: 60%;
+  background-color: #999;
+}
+
+
+.leftMain section{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 30px 20px;
+background-color: #ededed;
+box-shadow: 0 8px 22px 0 hsla(0, 0%, 58%, 0.18);
+border-bottom: 1px solid #d4d4d4;
+}
+
+.leftMain figure {
+margin: 0;
+padding:0;
+}
+
+.leftMain img {
+  width: 70px;
+  height: 70px;
+  border-radius:100%;
+}
+
+.innerBlockLeft {
+width: 25%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.innerBlockRight {
+  width:75%;
+  padding: 1px 15px 18px 12px;
+  
+}
+
+.innerBlockRight a {
+text-decoration: none;
+font-size: 14px;
+color: red;
+font-weight: 600;
+margin-top: 20px;
+display: block;
+}
+
+
+.leftMain  section:hover {
+  border-left: 3px solid #ee2e24;
+  background-color: #fff;
+  transition: ease all 0.4s;
+  cursor: pointer;
+
+}
+
+.leftMain section .innerBlockLeft figcaption {
+  background: #fff;
+  padding: 3px 10px;
+  border-radius: 5px;
+  box-shadow: 1px 4px 2px 1px #ccc;
+  font-size: 13px;
+  margin: -19px 0 14px;
+}
+
+.redCaption {
+  background-color: #ee2e24 !important;
+  color: white;
+}
+
+.blackCaption {
+    background-color: #111 !important;
+  color: #fff;
+}
+
+.deepBlueCaption {
+  background-color: rgb(0, 33, 72) !important;
+  color: #fff;
+}
+
+.goldenCaption {
+ background-color:goldenrod !important ;
+color: #111;
+text-align: center;
+}
+
+.rightMain figure{
+  margin: 0;
+  padding: 0;
+}
+
+.rightMain img {
+  width: 100%;
+  height: auto;
+}
+
+/* hotelchain css starts here */
+#HotelChain {
+  background-color: #f3f5f7;
+  height: 500px;
+  margin-top: 40px;
+  
+}
+
+#HotelChain article{
+  display: flex;
+}
+
+.leftHotelChain {
+  width: 50%;
+  background: url('../images/hotelChain/432737_widgetImage.png');
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.leftHotelChain figure{
+  margin: 0;
+  padding: 0;
+
+}
+
+.leftHotelChain img {
+  width: 110px;
+  height: 112px;
+}
+
+.rightHotelChain {
+  width: 50%;
+  padding:50px 0px;
+}
+
+.img5 {
+  position: absolute;
+  bottom: 25%;
+  right: 31%;
+}
+
+.img4 {
+  position: absolute;
+  bottom: 42%;
+  left: 35%;
+}
+
+.img6 {
+  position: absolute;
+  bottom: 48%;
+  right: 22%;
+
+}
+
+.img1 {
+  position: absolute;
+  top: 23%;
+  left: 14%;
+}
+
+.img3 {
+  position: absolute;
+  top: 12%;
+  right:20%;
+}
+
+.img2 {
+position: absolute;
+top: 17%;
+left: 41%;
+}
+
+
+.rightHotelChain h1 {
+  font-size:25px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+/* .rightHotelChain p {
+  font-weight: lighter;
+  color: gray;
+} */
+
+.rightHotelChain main {
+  display:flex;
+  margin: 40px 0;
+
+}
+
+.rightHotelChain main div {
+  width: auto;
+  transform:skewX(-30deg);
+  padding: 0 17px;
+}
+.inside {
+  transform: skewX(30deg) !important;
+}
+.middleOne{
+  border-left: 1px solid #666;
+  border-right: 1px solid #666;
+}
+
+
+.rightHotelChain main div h4 {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0;
+}
+
+.rightHotelChain main div p {
+  margin: 0;
+  color:#666;
+  /* font-weight: lighter; */
+}
+
+.rightHotelChain ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rightHotelChain ul li {
+  width: 30%;
+  padding: 20px 0;
+  text-transform: capitalize;
+  display: block;
+  position: relative;
+}
+.rightHotelChain ul li span{
+  height: 8px;
+  width: 8px;
+  background-color: #111;
+  display: block;
+  text-indent: -9999px;
+  border-radius: 100%;
+  position: absolute;
+  top:27px;
+  left: -20;
+
+}
